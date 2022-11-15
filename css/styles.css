@@ -1029,57 +1029,48 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 
 /* FOOTER SUBSCRIBE */
 
-.subscribe {
-    display: block;
+.footer-subscribe {
     margin-left: 93px;
-    width:570px;
-    height: 86px;
-    outline: 2px solid red;
 }
 
-.footer-subscr {
-    font-family: 'Roboto';
-    font-style: normal;
+.footer-subscribe-text {
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
-.footer-input {
+.footer-subscribe-form {
     display: flex;
     align-items: center;
-    margin-top: 20px;
-    padding: 12px 16px;
+}
 
+.footer-subscribe-input {
+    padding: 0;
+    padding-left: 16px;
     width: 358px;
     height: 50px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-    
     color: rgba(255, 255, 255, 0.6);
-    
+    background-color: inherit;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-
-    background-color: #2F303A;
 }
 
-
-.subscr-btn {
+.footer-subscribe-btn {
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-left: 12px;
+    padding: 10px 28px;
+
     width: 200px;
     height: 50px;
+
     background-color: var(--brand-color-main);
     border-radius: 4px;
     border-color: transparent;
@@ -1096,15 +1087,17 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscr-btn:hover, 
-.subscr-btn:focus, 
-.subscr-btn:active {
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus,
+.footer-subscribe-btn:active {
     background-color: #188CE8;
     border-color: transparent;
     color: #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.footer-icon {
+.footer-subscribe-icon {
     margin-left: 10px;
+    fill: #FFFFFF;
 }
